@@ -15,7 +15,6 @@ returnCard() {
 }
 
 evaluateGuess() {
-
     if(this.guess === this.currentCard.correctAnswer){
         return true
     } else {
