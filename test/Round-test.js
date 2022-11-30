@@ -34,8 +34,7 @@ describe('Round', function() {
 
     it('should return the current card being played', () => {
         const round2 = new Round(deck)
-        // 
-        console.log(round2)
+        
         expect(round2.returnCurrentCard()).to.equal(card1)
     });
 
@@ -45,6 +44,11 @@ describe('Round', function() {
         round2.takeTurn();
         expect(round2.turnCount).to.equal(1);
     });
+
+    // it('should create an instance of turn', function() {
+    //     const turn = new Turn()
+    //     expect(turn).to.be.an.instanceOf(Turn)
+    // });
 
     it('should change to next card after a turn', () => {
         const round2 = new Round(deck);
@@ -64,5 +68,26 @@ describe('Round', function() {
         const round2 = new Round(deck);
         expect(round2.takeTurn('hot dog')).to.equal('incorrect!')
         expect(round2.takeTurn('array')).to.equal('correct!')
+    });
+
+    it('should calculate and return the percentage of correct guesses', () => {
+        const round2 = new Round(deck);
+
+        expect(round2.takeTurn('hot dog')).to.equal('incorrect!')
+        expect(round2.calculatePercentCorrect()).to.equal(0)
+
+        expect(round2.takeTurn('array')).to.equal('correct!')
+        expect(round2.calculatePercentCorrect()).to.equal(50)
+        
+    });
+
+    it('should end round with printed statement saying the round is over', () => {
+        const round2 = new Round(deck);
+        const message = '** Round over! ** You answered 66% of the questions correctly!'
+        expect(round2.takeTurn('hot dog')).to.equal('incorrect!')
+        expect(round2.takeTurn('array')).to.equal('correct!')
+        expect(round2.takeTurn('mutator method')).to.equal('correct!')
+        expect(round2.calculatePercentCorrect()).to.equal(66)
+        expect(round2.endRound()).to.equal(message)
     });
 });
