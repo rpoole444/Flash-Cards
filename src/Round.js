@@ -38,7 +38,7 @@ class Round {
  
 
     endRound() {
-       const message = '** Round over! ** You answered 66% of the questions correctly!'
+       const message = `** Round over! ** You answered ${this.calculatePercentCorrect()}% of the questions correctly!`
        console.log(message)
        return message
     }

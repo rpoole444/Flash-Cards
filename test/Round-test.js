@@ -11,7 +11,8 @@ describe('Round', function() {
         let card2;
         let card3;
         let deck;
-    beforeEach(() =>{
+        let round
+    beforeEach(() => {
         card1 = new Card(1, 'what is your favorite animal?', ['sea otter', 'pug', 'capybara'], 'sea otter')
         card2 = new Card( 2, "What is a comma-separated list of related values?", ["array", "object", "function"], "array")
         card3 = new Card( 3, "What type of prototype method directly modifies the existing array?", ["mutator method", "accessor method", "iteration method"], "mutator method")
@@ -23,12 +24,12 @@ describe('Round', function() {
     });
 
     it('should be an instance of Round', function() {
-        const round = new Round()
-        expect(round).to.be.an.instanceOf(Round)
+        const round2 = new Round()
+        expect(round2).to.be.an.instanceOf(Round)
     });
 
     it('should take a deck of cards', function() {
-        const round1 = new Round(deck)
+        const round2 = new Round(deck)
         expect(deck.cards).to.deep.equal([card1, card2, card3])
     });
 
@@ -84,6 +85,7 @@ describe('Round', function() {
     it('should end round with printed statement saying the round is over', () => {
         const round2 = new Round(deck);
         const message = '** Round over! ** You answered 66% of the questions correctly!'
+
         expect(round2.takeTurn('hot dog')).to.equal('incorrect!')
         expect(round2.takeTurn('array')).to.equal('correct!')
         expect(round2.takeTurn('mutator method')).to.equal('correct!')
