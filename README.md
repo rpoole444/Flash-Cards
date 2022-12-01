@@ -25,7 +25,7 @@ This app is a our first solo project of Mod 2. We were given 4 days to complete 
 Given the opportunity to better this application, I would add a timer to test the user's timing with the knowledge. I would add the feature to restart the game if the percentage of correct answers are too low!
 
 ### Contributors:
-## Reid Poole:
+#### Reid Poole:
 [GitHub](https://github.com/rpoole444?tab=repositories)
 [LinkedIn] (https://www.linkedin.com/in/reid-poole-367948a8/)
 ### Learning Goals:
