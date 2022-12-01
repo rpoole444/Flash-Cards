@@ -1,7 +1,7 @@
 # flashCards
 
 ### Description:
-Need a new way to study your JavaScript iterators? You're inluck, "flashCards" is the app you're looking for!  You are able to study a set of 30 multiple choice questions, and at the end of the deck you will be given a percentage of correct answers to keep a tab on your development in the subject!
+Need a new way to study your JavaScript iterators? You're in luck, "flashCards" is the app you're looking for!  You are able to study a set of 30 multiple choice questions specific to JS iterators, and at the end of the deck or the game, you will be given a percentage of correct answers to keep a tab on your development in the subject!
 
 ### Installation Instructions:
     - Fork this repository
@@ -9,7 +9,7 @@ Need a new way to study your JavaScript iterators? You're inluck, "flashCards" i
     - cd into the repository
     - Open it in your text editor
 
-To view your project:
+#### To view your project:
 
 In your terminal, navigate to your project repo
 Run the command open node index.js
