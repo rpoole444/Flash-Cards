@@ -8,29 +8,29 @@ const Round = require('../src/Round');
 describe('Round', function() {
         let card1, card2, card3;
         let deck;
-        let round
+        let round;
     beforeEach(() => {
-        card1 = new Card(1, 'what is your favorite animal?', ['sea otter', 'pug', 'capybara'], 'sea otter')
-        card2 = new Card( 2, "What is a comma-separated list of related values?", ["array", "object", "function"], "array")
-        card3 = new Card( 3, "What type of prototype method directly modifies the existing array?", ["mutator method", "accessor method", "iteration method"], "mutator method")
-        deck = new Deck([card1, card2, card3])
-        round = new Round(deck)
+        card1 = new Card(1, 'what is your favorite animal?', ['sea otter', 'pug', 'capybara'], 'sea otter');
+        card2 = new Card( 2, "What is a comma-separated list of related values?", ["array", "object", "function"], "array");
+        card3 = new Card( 3, "What type of prototype method directly modifies the existing array?", ["mutator method", "accessor method", "iteration method"], "mutator method");
+        deck = new Deck([card1, card2, card3]);
+        round = new Round(deck);
     });
 
     it('should be a function', function() {
-        expect(Round).to.be.a('function')
+        expect(Round).to.be.a('function');
     });
 
     it('should be an instance of Round', function() {
-        expect(round).to.be.an.instanceOf(Round)
+        expect(round).to.be.an.instanceOf(Round);
     });
 
     it('should take a deck of cards', function() {
-        expect(deck.cards).to.deep.equal([card1, card2, card3])
+        expect(deck.cards).to.deep.equal([card1, card2, card3]);
     });
 
     it('should return the current card being played', () => {
-        expect(round.returnCurrentCard()).to.equal(card1)
+        expect(round.returnCurrentCard()).to.equal(card1);
     });
 
     it('should be able to increment the turn count with a turn', () => {
@@ -52,26 +52,26 @@ describe('Round', function() {
     });
 
     it('should provide appropriate feedback per guess', () => {
-        expect(round.takeTurn('hot dog')).to.equal('incorrect!')
-        expect(round.takeTurn('array')).to.equal('correct!')
+        expect(round.takeTurn('hot dog')).to.equal('incorrect!');
+        expect(round.takeTurn('array')).to.equal('correct!');
     });
 
     it('should calculate and return the percentage of correct guesses', () => {
-        expect(round.takeTurn('hot dog')).to.equal('incorrect!')
-        expect(round.calculatePercentCorrect()).to.equal(0)
+        expect(round.takeTurn('hot dog')).to.equal('incorrect!');
+        expect(round.calculatePercentCorrect()).to.equal(0);
 
-        expect(round.takeTurn('array')).to.equal('correct!')
-        expect(round.calculatePercentCorrect()).to.equal(50)
+        expect(round.takeTurn('array')).to.equal('correct!');
+        expect(round.calculatePercentCorrect()).to.equal(50);
         
     });
 
     it('should end round with printed statement saying the round is over', () => {
-        const message = '** Round over! ** You answered 66% of the questions correctly!'
+        const message = '** Round over! ** You answered 66% of the questions correctly!';
 
-        expect(round.takeTurn('hot dog')).to.equal('incorrect!')
-        expect(round.takeTurn('array')).to.equal('correct!')
-        expect(round.takeTurn('mutator method')).to.equal('correct!')
-        expect(round.calculatePercentCorrect()).to.equal(66)
-        expect(round.endRound()).to.equal(message)
+        expect(round.takeTurn('hot dog')).to.equal('incorrect!');
+        expect(round.takeTurn('array')).to.equal('correct!');
+        expect(round.takeTurn('mutator method')).to.equal('correct!');
+        expect(round.calculatePercentCorrect()).to.equal(66);
+        expect(round.endRound()).to.equal(message);
     });
 });
