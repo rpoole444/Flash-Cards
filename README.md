@@ -16,7 +16,11 @@ Run the command open node index.js
 
 ### Preview of App:
 [Preview Video](https://im.ezgif.com/tmp/ezgif-1-65eff21b80.gif)
-https://im.ezgif.com/tmp/ezgif-1-65eff21b80.gif
+
+
+https://user-images.githubusercontent.com/111818942/205179736-d77d45f4-905f-4f86-b2c1-c54a9942ac2c.mp4
+
+
 ### Context:
 This app is a our first solo project of Mod 2. We were given 4 days to complete the entire project. I was able to finish the project on day 3. I created all of the tests before creating code in our .js files.  This was my first experience writing tests before my code! It was a super fun experience and very rewarding when you are able to see you logic at work!
 
