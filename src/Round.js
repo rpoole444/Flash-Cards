@@ -5,7 +5,8 @@ class Round {
         this.deck = deckDetails;
         this.turnCount = 0;
         this.incorrectGuesses =[];
-        this.currentCard = null       
+        this.currentCard = null  
+        // console.log("DECK: ", deckDetails)     
     }
 
     returnCurrentCard() {
