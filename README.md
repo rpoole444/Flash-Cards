@@ -15,8 +15,6 @@ In your terminal, navigate to your project repo
 Run the command open node index.js
 
 ### Preview of App:
-[Preview Video](https://im.ezgif.com/tmp/ezgif-1-65eff21b80.gif)
-
 
 https://user-images.githubusercontent.com/111818942/205179736-d77d45f4-905f-4f86-b2c1-c54a9942ac2c.mp4
 
