@@ -4,7 +4,7 @@
 Need a new way to study your JavaScript iterators? You're in luck, "Flash Cards" is the app you're looking for!  You are able to study a set of 30 multiple choice questions specific to JS iterators, and at the end of the deck or the game, you will be given a percentage of correct answers to keep a tab on your development in the subject!
 
 ### Installation Instructions:
-    - Fork this [repository](https://github.com/rpoole444/Flash-Cards)
+    - Fork this repository
     - Clone down your new, forked repo
     - cd into the repository
     - Open it in your text editor
