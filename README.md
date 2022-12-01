@@ -16,7 +16,7 @@ Run the command open node index.js
 
 ### Preview of App:
 [Preview Video](https://im.ezgif.com/tmp/ezgif-1-65eff21b80.gif)
-
+https://im.ezgif.com/tmp/ezgif-1-65eff21b80.gif
 ### Context:
 This app is a our first solo project of Mod 2. We were given 4 days to complete the entire project. I was able to finish the project on day 3. I created all of the tests before creating code in our .js files.  This was my first experience writing tests before my code! It was a super fun experience and very rewarding when you are able to see you logic at work!
 
@@ -27,7 +27,8 @@ Given the opportunity to better this application, I would add a timer to test th
 ### Contributors:
 #### Reid Poole:
 [GitHub](https://github.com/rpoole444?tab=repositories)
-[LinkedIn] (https://www.linkedin.com/in/reid-poole-367948a8/)
+
+[LinkedIn](https://www.linkedin.com/in/reid-poole-367948a8/)
 ### Learning Goals:
 Solidify and demonstrate your understanding of:
 
