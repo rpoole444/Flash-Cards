@@ -3,8 +3,6 @@ class Turn {
         this.guess = guess;
         this.currentCard = currentCard
         this.correctGuess = null
-        // console.log(guess)
-        // console.log(currentCard)
     }
 
 returnGuess() {
