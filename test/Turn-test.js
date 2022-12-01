@@ -15,9 +15,9 @@ describe('Turn', function() {
         turn2 = new Turn('mutator method', card3);
     });
 
-    it('should be a function', function() {
-        expect(Turn).to.be.a('function');
-    });
+    // it('should be a function', function() {
+    //     expect(Turn).to.be.a('function');
+    // });
 
     it('should be an instance of turn', function() {
         expect(turn1).to.be.an.instanceOf(Turn);

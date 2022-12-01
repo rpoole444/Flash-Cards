@@ -5,11 +5,13 @@ const Card = require('../src/Card');
 const Deck = require('../src/Deck');
 
 describe('Deck', function() {
-
-    let card1, card2, card3;
+    let card1;
+    let card2;
+    let card3;
+    
     beforeEach(() => {
-        card1 = new Card( 19, "What does the callback function for filter() return?", ["boolean", "an array of the same length", "a single value of any data type"],"boolean");
-        card2 = new Card( 20, "forEach() returns an array",["true", "false"], "false");
+        card1 = new Card(19, "What does the callback function for filter() return?", ["boolean", "an array of the same length", "a single value of any data type"],"boolean");
+        card2 = new Card(20, "forEach() returns an array",["true", "false"], "false");
         card3 = new Card(21,"Which iteration method is best for DOM manipulation?", ["forEach()", "map()", "reduce()"], "forEach()");
     });
 
