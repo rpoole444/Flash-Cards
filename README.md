@@ -32,7 +32,6 @@ Given the opportunity to better this application, I would add a timer to test th
 
 [LinkedIn](https://www.linkedin.com/in/reid-poole-367948a8/)
 ### Learning Goals:
-Solidify and demonstrate your understanding of:
 
 - Contribute code to an partially constructed object-oriented application
 - Follow spec/prompts to make a working application
