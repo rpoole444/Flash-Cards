@@ -5,10 +5,9 @@ const Card = require('../src/Card');
 const Turn = require('../src/Turn');
 
 describe('Turn', function() {
-    let turn1
-    let turn2
-    let card1
-    let card3
+    let turn1, turn2
+    let card1, card3
+
     beforeEach(() =>{
         card1 = new Card(1, 'what is your favorite animal?', ['sea otter', 'pug', 'capybara'], 'sea otter')
         card3 = new Card( 3, "What type of prototype method directly modifies the existing array?", ["mutator method", "accessor method", "iteration method"], "mutator method")
@@ -60,5 +59,5 @@ describe('Turn', function() {
     it('should return a message if the guess was correct', function() {
         expect(turn2.evaluateGuess()).to.equal(true)
         expect(turn2.giveFeedback()).to.equal('correct!')
-    })
+    });
 });

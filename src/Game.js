@@ -10,11 +10,8 @@ const Round = require('../src/Round');
 class Game {
   constructor(currentRound) {
     this.currentRound = currentRound
-    this.deck;
-// console.log(currentRound)
   }
   
-
   printMessage(deck, round) {
     console.log(`Welcome to FlashCards! You are playing with ${deck.countCards()} cards.
 -----------------------------------------------------------------------`)
@@ -38,14 +35,11 @@ class Game {
       let cards = new Card(card.id, card.question, card.answers, card.correctAnswer)
       return cards
     })
-    // console.log(gameCards)
     return gameCards
   }
 
   createDeck(){
-
     let newDeck = new Deck(this.createCards())
-    // console.log('newDeck: ', newDeck)
     return newDeck
   }
 
@@ -53,7 +47,6 @@ class Game {
     let newRound = new Round(this.createDeck())
     return newRound
   }
-
 }
 
 module.exports = Game;

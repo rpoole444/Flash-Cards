@@ -4,10 +4,7 @@ class Deck {
     }
 
     countCards() {
-        // console.log(this.cards)
        return this.cards.length
     }
 }
-
-
 module.exports = Deck;
