@@ -16,7 +16,7 @@ Run the command open node index.js
 
 ### Preview of App:
 
- ![Gif](https://giphy.com/embed/6LJR1FmRbQqn62vPJD)
+ ![Gif](https://media2.giphy.com/media/6LJR1FmRbQqn62vPJD/giphy.gif?cid=790b7611875208b95c79f592da123b69172859374a77b357&rid=giphy.gif&ct=g)
 
 
 
