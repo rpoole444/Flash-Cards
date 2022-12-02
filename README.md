@@ -18,7 +18,7 @@ Run the command open node index.js
 
 <iframe src="https://giphy.com/embed/6LJR1FmRbQqn62vPJD" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/6LJR1FmRbQqn62vPJD">via GIPHY</a></p>
 
-![flash cards gif](https://giphy.com/embed/6LJR1FmRbQqn62vPJD)
+https://giphy.com/embed/6LJR1FmRbQqn62vPJD
 
 ### Context:
 This app is a our first solo project of Mod 2. We were given 4 days to complete the entire project. I was able to finish the project on day 3. I created all of the tests before creating code in our .js files.  This was my first experience writing tests before my code! It was a super fun experience and very rewarding when you are able to see you logic at work!
