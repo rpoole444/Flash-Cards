@@ -29,9 +29,8 @@ Given the opportunity to better this application, I would add a timer to test th
 
 ### Contributors:
 #### Reid Poole:
-[GitHub](https://github.com/rpoole444?tab=repositories)
-
-[LinkedIn](https://www.linkedin.com/in/reid-poole-367948a8/)
+- [GitHub](https://github.com/rpoole444?tab=repositories)
+- [LinkedIn](https://www.linkedin.com/in/reid-poole-367948a8/)
 ### Learning Goals:
 
 - Contribute code to an partially constructed object-oriented application
