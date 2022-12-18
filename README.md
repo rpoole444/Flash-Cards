@@ -12,7 +12,7 @@ Need a new way to study your JavaScript iterators? You're in luck, "Flash Cards"
 #### To view your project:
 
 In your terminal, navigate to your project repo
-Run the command open node index.js
+Run the command: node index.js
 
 ### Preview of App:
 
